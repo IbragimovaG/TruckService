@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: "Inter", sans-serif;
+    scroll-behavior: smooth;
+}
+
+.banner {
+    width: 100%;
+    height: 60px;
+    padding: 10px 150px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.NavBar{
+    width: 100%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px 150px;
+}
+.menu {
+    display: flex;
+    margin-top: 15px;
+    gap: 20px;
+    list-style: none;
+}
+.menu a {
+    color: #333333;
+    text-decoration: none;
+}
+.button{
+    color: white;
+    padding: 10px 40px;
+    background-color: #4762FF;
+    border: none;
+    border-radius: 5px;
+}
+.home{
+    width: 100%;
+    height: 100vh;
+    background-image:url(./assets/3d-render-fleet-delivery-vehicles\ 1.png) ;
+    background-repeat: no-repeat;
+    background-position:right;
+    padding:50px 0px 100px 150px ;
+}
+.servise{
+    width: 100%;
+    height: 100vh;
+}
+.packs{
+    width: 100%;
+    height: 100%;
+    padding: 100px 150px;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.pack{
+    width:45%;
+    height: 287px;
+    background-color:#F4F6FA;
+    padding: 20px 0px 0px 20px;
+    border-radius: 8px;
+}
+.pack h3{
+    font-size: 24px;
+    font-weight: 700;
+    width: 366px;
+}
+.pack p {
+    font-size: 16px;
+    font-weight: 400;
+    width: 253px;
+}
+.pack:nth-child(1){
+    background-image: url(./assets/450-4504112_engine-carens-automotive-motors-parts-kia-cerato-clipart\ 1.png);
+    background-repeat: no-repeat;
+    background-position: right bottom;
+} 
+.pack:nth-child(2){
+    background-image: url(./assets/Lovepik_com-401744084-car-washing\ 1.png);
+    background-repeat: no-repeat;
+    background-position: right bottom;
+} 
+.pack:nth-child(3){
+    background-image: url(./assets/PngItem_1125131\ 1.png);
+    background-repeat: no-repeat;
+    background-position: right bottom;
+} 
+.pack:nth-child(4){
+    background-image: url(./assets/accef6ee4240381543d482643a7b4e99\ 1.png);
+    background-repeat: no-repeat;
+    background-position: right bottom;
+} 
